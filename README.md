@@ -1,6 +1,10 @@
 # BizInputs
 Input Display system for [BizHawk](https://github.com/TASVideos/BizHawk), perfect for demonstrating how to perform tricks.
 
+# Example of usage
+Using in real-time: https://www.youtube.com/watch?v=wILmzf37SYU&feature=youtu.be
+Usage on a TAS: https://www.youtube.com/watch?v=8Z_kPxjemcM&feature=youtu.be
+
 # How to Use
 ## Launching
 Open BizHawk and your desired ROM. Open the Lua console, click Script > Open Script. Find and open inputdisplay.lua.
