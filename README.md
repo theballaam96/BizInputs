@@ -2,13 +2,11 @@
 Input Display system for [BizHawk](https://github.com/TASVideos/BizHawk), perfect for demonstrating how to perform tricks.
 
 # Example of usage
-Using in real-time: [![realtime](https://img.youtube.com/vi/wILmzf37SYU/0.jpg)](https://www.youtube.com/watch?v=wILmzf37SYU)
+## Using in real-time
+[![realtime](https://img.youtube.com/vi/wILmzf37SYU/0.jpg)](https://www.youtube.com/watch?v=wILmzf37SYU)
 
-https://www.youtube.com/watch?v=wILmzf37SYU&feature=youtu.be
-
-Usage on a TAS: [![tas](https://img.youtube.com/vi/8Z_kPxjemcM/0.jpg)](https://www.youtube.com/watch?v=8Z_kPxjemcM)
-
-https://www.youtube.com/watch?v=8Z_kPxjemcM&feature=youtu.be
+## Usage on a TAS
+[![tas](https://img.youtube.com/vi/8Z_kPxjemcM/0.jpg)](https://www.youtube.com/watch?v=8Z_kPxjemcM)
 
 # How to Use
 ## Launching
