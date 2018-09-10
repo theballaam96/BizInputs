@@ -26,7 +26,7 @@ function getControllerInput()
 			["S"] = "P"..controllerView_value.." Start",
 			["X"] = "P"..controllerView_value.." X Axis",
 			["Y"] = "P"..controllerView_value.." Y Axis",
-			["Z"] = "P"..controllerView_value.." Z",			
+			["Z"] = "P"..controllerView_value.." Z",
 		};
 	else
 		input_array = joypad.get(controllerView_value);
@@ -46,7 +46,11 @@ function getControllerInput()
 			["S"] = "Start",
 			["X"] = "X Axis",
 			["Y"] = "Y Axis",
-			["Z"] = "Z",			
+			["Z"] = "Z",
+			["AU"] = "A Up",
+			["AD"] = "A Down",
+			["AL"] = "A Left",
+			["AR"] = "A Right",
 		};
 	end
 	
@@ -145,6 +149,21 @@ function getControllerInput()
 	else
 		ana_y = 0;
 	end
+	
+	--if we have the analog buttons, use those to override ana_x and ana_y
+	if input_array[Buttons.AR] then
+		ana_x = 127;
+	end
+	if input_array[Buttons.AL] then
+		ana_x = -128;
+	end
+	if input_array[Buttons.AU] then
+		ana_y = 128;
+	end
+	if input_array[Buttons.AD] then
+		ana_y = -127;
+	end
+	
 end
 		
 function drawUI()
