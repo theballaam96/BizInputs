@@ -27,6 +27,10 @@ function getControllerInput()
 			["X"] = "P"..controllerView_value.." X Axis",
 			["Y"] = "P"..controllerView_value.." Y Axis",
 			["Z"] = "P"..controllerView_value.." Z",
+			["AU"] = "P"..controllerView_value.." A Up",
+			["AD"] = "P"..controllerView_value.." A Down",
+			["AL"] = "P"..controllerView_value.." A Left",
+			["AR"] = "P"..controllerView_value.." A Right",
 		};
 	else
 		input_array = joypad.get(controllerView_value);
